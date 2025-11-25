@@ -1,0 +1,17 @@
+package JavaBasics;
+
+import java.util.HashSet;
+
+public class Map {
+    public static void main(String[] args) {
+        /*
+        A HashSet is a collection where every element is unique - no duplicates are allowed.
+        */
+        HashSet<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(2);
+        set.add(3);
+        set.add(4);
+        System.out.println("HashSet data :" + set);
+    }
+}
